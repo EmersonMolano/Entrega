@@ -7,7 +7,7 @@ services:
     container_name: airline-postgres
     restart: unless-stopped
     environment:
-      POSTGRES_USER: Emerson
+      POSTGRES_USER: emerson
       POSTGRES_PASSWORD: 123456789jJ.
       POSTGRES_DB: airline_db
     ports:
