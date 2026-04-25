@@ -1,7 +1,7 @@
 databaseChangeLog:
   - changeSet:
       id: 3001-create-security-roles
-      author: andrey
+      author: emerson
       description: Creación de roles de seguridad diferenciados
       changes:
         - sql:
@@ -26,7 +26,7 @@ databaseChangeLog:
 
   - changeSet:
       id: 3002-insert-initial-roles-and-permissions
-      author: andrey
+      author: emerson
       description: Insertar roles y permisos en las tablas de seguridad
       changes:
         - sql:
