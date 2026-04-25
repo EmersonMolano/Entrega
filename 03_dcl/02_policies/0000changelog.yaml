@@ -1,7 +1,7 @@
 databaseChangeLog:
   - changeSet:
       id: 3101-grant-privileges-by-role
-      author: andrey
+      author: emerson
       description: Asignación de permisos (GRANT) por rol - principio de menor privilegio
       changes:
         - sql:
